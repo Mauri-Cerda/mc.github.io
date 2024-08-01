@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>M.C</title>
+	<link rel="stylesheet" href="styles.css">
+	<!-- Font Awesome CDN -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-rgONB0nU1zPZxoxmG+UzdtOJQDbtRSDr7HgaW0xS/DR9wWSc5G5LkPxIgGkU29sA" crossorigin="anonymous" />
+</head>
+<body>
+	<header class="header">
+	    <input type="checkbox" class="header__checkbox" id="open-menu">
+	    <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+	    <div class="header__logo-container">
+	        <img class="header__logo" src="logo.png">
+	    </div>
+	    <nav class="header__nav">
+	        <ul class="header__nav-list">
+	            <li class="header__nav-item"><a href="#profile">About</a></li>
+	            <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+	            <li class="header__nav-item"><a href="#contact">Contact</a></li>
+	        </ul>
+	    </nav>  
+	</header>
+	<main class="profile" id="profile">
+		<div class="profile__wrapper">
+			<div class="profile__img-container">
+				<img src="mau.jpg" class="profile__img" alt="Foto de Mauricio Cerda">
+			</div>
+			<div class="profile__data-container">
+				<div class="profile__data">
+					<div class="profile__description">
+						<h1><strong>Hola..!!</strong> Me presento...</h1>
+						<p>Soy Mauricio Héctor Cerda, es un gusto poder presentarme y que me conozcan cómo me introduje a este mundo de las tecnologías y la telecomunicaciones. Desde muy temprana edad sentía una gran atracción a las antenas de los televisores a tubo, me llamaba mucho saber cómo en algo tan pequeño y a veces tan grande de alambres y metal llegaba los dibujos que más amaba ver horas enteras. La empresa de dicho servicio era CTC. La cual actualmente trabajo como técnico de dicha Empresa tan prestigiosa.</p>
+						<p>Tuve la dicha de poder terminar mis estudios en Redes y Telecomunicaciones, y la carrera de Programacion otra rama que me apasiona mucho y poder realizar distintos proyectos con diferentes lenguajes y poder entrelazarlos para un objetivo.</p>
+						<p>Sin mas palabras les comparto mi CV para que puedan visualizar a detalles mi ruta de aprendizaje y experencia. Espero que sea de su agrado! Gracias y Saludos.</p>
+						<a href="https://mega.nz/file/zxFUXLpK#u_slgM5qjrmBmKoQPBVqWkI9zkl8D45Rq9Cxs0Zd5aU" target="_blank"><button class="download-cv">Download CV</button></a>
+					</div>
+					<div class="profile__skills-container">
+						<h2>SKILLS</h2>
+						<ul>
+							<li class="profile__skill">
+								<div class="load-bar">
+									<div class="load-bar__bar bar--80">80%</div>
+								</div>
+								<span class="profile__skill-name">HTML</span>
+							</li>
+							<li class="profile__skill">
+								<div class="load-bar">
+									<div class="load-bar__bar bar--70">70%</div>
+								</div>
+								<span class="profile__skill-name">CSS</span>
+							</li>
+							<li class="profile__skill">
+								<div class="load-bar">
+									<div class="load-bar__bar bar--70">70%</div>
+								</div>
+								<span class="profile__skill-name">JS</span>
+							</li>
+							<li class="profile__skill">
+								<div class="load-bar">
+									<div class="load-bar__bar bar--78">78%</div>
+								</div>
+								<span class="profile__skill-name">PYTHON</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<section class="portfolio" id="portfolio">
+		<h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+		<div class="portfolio__project-container">
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+				<a href="">LINK</a>
+			</div>
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+			</div>
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+			</div>
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+			</div>
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+			</div>
+			<div class="portfolio__project">
+				<h2 class="portfolio__project-name">PROJECT</h2>
+			</div>
+		</div>
+	</section>
+	<section class="form" id="contact">
+		<h2 class="form__title">CONTACT</h2>
+		<form class="form__form">
+			<div class="form__input-container">
+				<label>Nombre
+					<input type="text" placeholder="John">
+				</label>
+			</div>
+			<div class="form__input-container">
+				<label>Apellido
+					<input type="text" placeholder="Walker">
+				</label>
+			</div>
+			<div class="form__input-container">
+				<label>E-mail
+					<input type="email" placeholder="mail@example.com">
+				</label>
+			</div>
+			<div class="form__input-container">
+				<label>Mensaje
+					<textarea placeholder="Mensaje a escribir..."></textarea>
+				</label>
+			</div>
+			<div class="form__input-container">
+				<input type="submit">
+			</div>
+		</form>	
+	</section>
+	<footer class="footer">
+    <div class="footer-content">
+        <h2>Cerda Mauricio</h2>
+        <h5>Frontend Developer</h5>
+    </div>
+    <div class="social-network">
+        <a href="https://www.instagram.com/maury.h.c" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.facebook.com/maury.cerda" target="_blank">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://github.com/MauryCerda" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.youtube.com/@mauriciocerda778" target="_blank">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+</footer>
+</body>
+</html>
